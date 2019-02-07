@@ -28,6 +28,6 @@ def detect_triggerword(filename):
 	plt.show()
 	return predictions
 
-if __name__ == "main":
+if __name__ == "__main__":
 	filename = '' # file path to wav file to predict if trigger word exists
 	prediction = detect_triggerword(filename)

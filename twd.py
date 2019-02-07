@@ -69,7 +69,7 @@ def train_model(X_train_path, Y_train_path):
 	model.save("twd_model.h5")
 	return training_history
 
-if __name__ == "main":
+if __name__ == "__main__":
 	Tx = 5511 # number of time steps input to the model from the spectrogram
 	n_Freq = 101 # number of frequencies input to the model at each time step of the spectrogram
 	Ty = 1375 # number of time steps in the output of our model
